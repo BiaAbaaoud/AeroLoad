@@ -37,19 +37,14 @@ Calcular o peso e o balanceamento em planilhas de papel ou tabelas estáticas é
 3. **Gráfico de Estabilidade**: Verifique se o ponto branco (Decolagem) e o ponto ciano (Pouso) estão dentro da área verde do gráfico.
 4. **Trajetória**: A linha amarela mostra como o equilíbrio do avião mudará conforme o combustível for consumido durante a viagem.
 
-
 ## ❓ Perguntas Frequentes (FAQ)
 
-**1. Este gráfico serve para qualquer aeronave?**
-A lógica matemática (Cálculo de Momentos) é universal para a aviação. No entanto, este projeto foi modelado especificamente com os limites de peso e braços de momento do **Cessna 172 Skyhawk**. Para utilizá-lo em outras aeronaves, basta atualizar as constantes do envelope de segurança conforme o manual da fabricante (POH).
+1. **Este gráfico serve para qualquer aeronave?** A lógica matemática (Cálculo de Momentos) é universal para a aviação. No entanto, este projeto foi modelado especificamente com os limites de peso e braços de momento do **Cessna 172 Skyhawk**. Para utilizá-lo em outras aeronaves, basta atualizar as constantes do envelope de segurança conforme o manual da fabricante (POH).
 
-**2. O projeto é focado em Front-end ou Back-end?**
-O AeroLoad é uma aplicação **Full-stack**. O Python gerencia tanto o "Back-end" (cálculos de engenharia e lógica de segurança) quanto o "Front-end" (interface interativa e gráficos), graças ao framework Streamlit.
+2. **O projeto é focado em Front-end ou Back-end?** O AeroLoad é uma aplicação **Full-stack**. O Python gerencia tanto o "Back-end" (cálculos de engenharia e lógica de segurança) quanto o "Front-end" (interface interativa e gráficos), graças ao framework Streamlit.
 
-**3. O sistema funciona em tempo real?**
-Sim. A aplicação é reativa; cada vez que um parâmetro de carga é alterado pelo usuário, o sistema recalcula os dados instantaneamente e atualiza o gráfico sem a necessidade de recarregar a página.
+3. **O sistema funciona em tempo real?** Sim. A aplicação é reativa; cada vez que um parâmetro de carga é alterado pelo usuário, o sistema recalcula os dados instantaneamente e atualiza o gráfico sem a necessidade de recarregar a página.
 
-**4. O projeto pode ser expandido?**
-Sim. A arquitetura atual permite a implementação futura de banco de dados para múltiplas aeronaves, conversão automática de unidades (Galões/Litros, Libras/Quilos) e integração com APIs de meteorologia para ajuste de densidade do ar.
+4. **O projeto pode ser expandido?** Sim. A arquitetura atual permite a implementação futura de banco de dados para múltiplas aeronaves, conversão automática de unidades (Galões/Litros, Libras/Quilos) e integração com APIs de meteorologia para ajuste de densidade do ar.
 ---
 **Desenvolvido com foco em segurança aérea por [Bia Abaoud](https://github.com/BiaAbaaoud)**
